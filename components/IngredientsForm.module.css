@@ -1,0 +1,37 @@
+.form {
+  width: 30rem;
+  margin: 2rem auto;
+  max-width: 80%;
+}
+
+.control label,
+.control input {
+  display: block;
+  width: 100%;
+}
+
+.control input {
+  font: inherit;
+  padding: 0.1rem 0.25rem;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+.control input:focus {
+  outline: none;
+  border-bottom-color: #ff2058;
+}
+
+.actions button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ff2058;
+  margin: auto;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+}
+button:hover {
+  background: #ffb2c5;
+}
